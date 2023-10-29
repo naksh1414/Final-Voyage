@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Kedarnath Yatra",
+    "city": "Kedarnath",
+    "address": "Somewhere in Uttrakhand",
+    "distance": 300,
+    "price": 2000,
+    "maxGroupSize": 10,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/kedarnath.jpg",
+    "featured": true
+  },
+  {
+    "title": "Taj Mahal",
+    "city": "Agra",
+    "address": "Somewhere in Agra",
+    "distance": 400,
+    "price": 39,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/tajmahal.jpg",
+    "featured": true
+  },
+  {
+    "title": "Lotus Temple",
+    "city": "Delhi",
+    "address": "Somewhere in Delhi",
+    "distance": 500,
+    "price": 69,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/lotus-temple.jpg",
+    "featured": true
+  },
+  {
+    "title": "Vaishno Devi",
+    "city": "katra",
+    "address": "Somewhere in Jammu and kashmir",
+    "distance": 500,
+    "price": 1009,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/Vaishnodevi.jpg",
+    "featured": true
+  },
+  {
+    "title": "Qutub Minar ",
+    "city": "Delhi",
+    "address": "Somewhere in India",
+    "distance": 500,
+    "price": 59,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/qutubMinar.jpg",
+    "featured": true
+  },
+  {
+    "title": "Hawal Mahal",
+    "city": "Jaipur",
+    "address": "Somewhere in Rajasthan",
+    "distance": 500,
+    "price": 79,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/Hawa-mahal.avif",
+    "featured": true
+  },
+  {
+    "title": "Humanyu's Tomb",
+    "city": "Delhi",
+    "address": "Somewhere in Delhi",
+    "distance": 500,
+    "price": 55,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/humanyutomb.avif",
+    "featured": true
+  },
+  {
+    "title": "Somnath Temple",
+    "city": "Gujarat",
+    "address": "Somewhere in Gujarat",
+    "distance": 500,
+    "price": 100,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/Somanath_mandir.jpg",
+    "featured": true
+  },
+  {
+    "title": "Kashi Vishwanath",
+    "city": "Varanasi",
+    "address": "Somewhere in Varanasi",
+    "distance": 100,
+    "price": 59,
+    "maxGroupSize": 5,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/kashi-vishwanath.jpg",
+    "featured": false
+  },
+  {
+    "title": "Badrinath Temple",
+    "city": "Uttrakhand",
+    "address": "Somewhere in Uttrakhand",
+    "distance": 500,
+    "price": 99,
+    "maxGroupSize": 8,
+    "desc": "this is the description",
+    "reviews": [],
+
+    "photo": "/tour-images/Badrinath_Temple.jpg",
+    "featured": false
+  }
+]
