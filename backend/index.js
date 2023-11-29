@@ -13,12 +13,12 @@ dotenv.config()
 const app = express()
 const port = process.env.PORT || 8000
 const corsOptions = {
-   origin: true,
+   origin: 'http://localhost:3000',
    credentials: true
 }
 
 mongoose.set("strictQuery", false)
-const connect = async() => {
+const connect = async () => {
    try {
       await mongoose.connect(process.env.MONGO_URI, {
          useNewUrlParser: true,

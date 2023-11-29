@@ -1,33 +1,34 @@
-import React from 'react'
-import ServiceCard from './ServiceCard'
-import { Col } from 'reactstrap'
-import guideImg from '../assets/images/guide.png'
-import customizationImg from '../assets/images/customization.png'
+import React from "react";
+import ServiceCard from "./ServiceCard";
+import { Col } from "reactstrap";
+import guideImg from "../assets/images/guide.png";
+import customizationImg from "../assets/images/customization.png";
 
 const servicesData = [
- 
-   {
-      imgUrl: guideImg,
-      title: `Best Tour Guide`,
-      desc: `For a more immersive experience, the platform can offer AR (Augmented Reality) visualization of monuments and attractions. Users can use their smartphones or AR glasses to get additional information about the attractions they're visiting. This can include historical facts, audio guides, and other interactive features to enhance their understanding of the place.`,
-   },
-   {
-      imgUrl: customizationImg,
-      title: 'Customization',
-      desc: `Customizing a platform for efficient booking with real-time availability and premium services for monuments and museums can be tailored to meet specific user needs and branding requirements. `,
-   },
-]
+  {
+    imgUrl: guideImg,
+    title: `Immersive Experience`,
+    desc: ` Elevate your experience with premium features such as Crowd Tracking and Augmented Reality (AR) monuments visualization`,
+  },
+  {
+    imgUrl: customizationImg,
+    title: "Variety of Tours",
+    desc: `
+      Effortless bookings with real-time availability for monuments and museums. Skip the queues for a seamless experience. Partnering with premier tourist spots, museums, and attractions, we provide diverse, incredible experiences, from trekking to sports and water parks.`,
+  },
+  
+];
 
 const ServiceList = () => {
-   return <>
-      {
-         servicesData.map((item, index) => (
-            <Col lg='3' md='6' sm='12' className='mb-4' key={index}>
-               <ServiceCard item={item} />
-            </Col>))
-      }
-   </>
+  return (
+    <>
+      {servicesData.map((item, index) => (
+        <Col lg="3" md="6" sm="12" className="mb-4" key={index}>
+          <ServiceCard item={item} />
+        </Col>
+      ))}
+    </>
+  );
+};
 
-}
-
-export default ServiceList
+export default ServiceList;

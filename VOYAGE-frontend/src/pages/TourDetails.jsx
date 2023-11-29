@@ -20,7 +20,7 @@ const TourDetails = () => {
    // fetch data from database
    const { data: tour, loading, error } = useFetch(`${BASE_URL}/tours/${id}`)
 
-   const { photo, title, desc, price, reviews, city, address, distance, maxGroupSize } = tour
+   const { title, desc, price, reviews, city, address, distance, maxGroupSize } = tour
 
    const { totalRating, avgRating } = calculateAvgRating(reviews)
 
@@ -73,7 +73,7 @@ const TourDetails = () => {
                <Row>
                   <Col lg='8'>
                      <div className="tour__content">
-                        <img src={photo} alt="" />
+                        {/* <img src={photo} alt="" /> */}
 
                         <div className="tour__info">
                            <h2>{title}</h2>

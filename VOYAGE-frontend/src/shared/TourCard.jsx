@@ -6,7 +6,7 @@ import calculateAvgRating from '../utils/avgRating'
 
 const TourCard = ({ tour }) => {
 
-   const { _id, title, city, photo, price, featured, reviews } = tour
+   const { _id, title, city, price, featured, reviews } = tour
 
    const { totalRating, avgRating } = calculateAvgRating(reviews)
 
@@ -14,7 +14,6 @@ const TourCard = ({ tour }) => {
       <div className='tour__card'>
          <Card>
             <div className="tour__img">
-               <img src={photo} alt="tour-img" />
                {featured && <span>Featured</span>}
             </div>
 

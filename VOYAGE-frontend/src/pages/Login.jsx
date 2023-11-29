@@ -16,13 +16,12 @@ const Login = () => {
    const {dispatch} = useContext(AuthContext)
    const navigate = useNavigate()
 
-   const handleChange = e => {
+   const handleChange = (e) => {
       setCredentials(prev => ({ ...prev, [e.target.id]: e.target.value }))
    }
 
-   const handleClick = async e => {
-      e.preventDefault()
-
+   const handleClick = async (e) => {
+      e.preventDefault();
       dispatch({type:'LOGIN_START'})
 
       try {
