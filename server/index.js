@@ -14,7 +14,7 @@ dotenv.config()
 const app = express()
 const port = process.env.PORT || 8000
 const corsOptions = {
-   origin: 'https://final-voyage.vercel.app',
+   origin: 'https://final-voyage.vercel.app/api/v1',
    credentials: true,
    methods: ["POST", "GET"]
 }
