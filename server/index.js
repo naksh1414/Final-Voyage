@@ -1,4 +1,5 @@
 import express  from "express";
+import bodyParser from "body-parser";
 import dotenv from 'dotenv'
 import mongoose from 'mongoose'
 import cors from 'cors'
@@ -35,6 +36,7 @@ const connect = async () => {
 // res.send("api is working")
 // })
 app.use(express.json())
+app.use(bodyParser.json())
 app.use(cors(corsOptions))
 app.use(cookieParser())
 app.use("/api/v1/auth", authRoute)
