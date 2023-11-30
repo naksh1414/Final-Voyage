@@ -167,9 +167,9 @@ const Home = () => {
       <div className="chatbot-container">
         <button className="chatbot-btn" onClick={toggleChat}>
           {isChatOpen ? (
-            <ImCross width="20px" height="20px" />
+            <ImCross width="20px" height="20px"/>
           ) : (
-            <GrRobot width="20px" height="20px" />
+            <GrRobot width="30px" height="30px" />
           )}
         </button>
         {isChatOpen && <ChatbotComponent />}

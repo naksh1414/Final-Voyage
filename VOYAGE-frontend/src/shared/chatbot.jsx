@@ -99,8 +99,8 @@ const ChatbotComponent = () => {
       <div
         style={{
           position: "relative",
-          height: "400px",
-          width: "500px",
+          height: "450px",
+          width: "400px",
         }}
       >
         <MainContainer>
